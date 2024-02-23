@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/simplabs/gravity_dummy#readme",
   "dependencies": {
+    "@gravityci/cli": "^0.0.2-alpha.15",
     "lodash": "^4.17.21"
   },
   "devDependencies": {
