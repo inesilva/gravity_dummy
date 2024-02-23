@@ -25,6 +25,6 @@ jobs:
           name: my-artifact
           path: dist
       - name: Run Gravity
-        run: npx run gravityci "dist/**/*"
-            env:
-              GRAVITY_TOKEN: ${{ secrets.GRAVITY_TOKEN }}
+        run: npx run gravityci 'dist/**/*'
+        env:
+          GRAVITY_TOKEN: ${{ secrets.GRAVITY_TOKEN }}
